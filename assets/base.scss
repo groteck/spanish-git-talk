@@ -16,6 +16,41 @@
 @import url('/assets/vendor/deck.js/themes/style/swiss.css');
 @import url('/assets/vendor/deck.js/themes/transition/horizontal-slide.css');
 
+i.icon-envelope-alt {
+  background-image: url('gmail.png');
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  background-size: 34px;
+  vertical-align: -8px;
+}
+i.icon-github {
+  background-image: url('github.svg');
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  background-size: 34px;
+  vertical-align: -8px;
+}
+i.icon-twitter {
+  background-image: url('twitter.png');
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  background-size: 34px;
+  vertical-align: -8px;
+}
+i.icon-git {
+  background-image: url('git_logo.png');
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  background-size: 34px;
+  vertical-align: -8px;
+}
+.center{
+  text-align:center;
+}
 /*personal styles */
 .container.deck-child-current {
   margin-left: auto;
@@ -34,13 +69,6 @@
   margin-bottom: 4px;
   border-radius: 5px;
   background-color: gray;
-  #logo {
-    width: 40px;
-    float:left;
-    img {
-      margin-bottom: 0;
-    }
-  } 
   #title {
     float:left;
     line-height: 44px;
