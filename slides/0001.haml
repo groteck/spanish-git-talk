@@ -1,0 +1,145 @@
+.container
+  .slide
+    %h1.front Git control de versiones
+    %asset git_logo.png
+  .slide
+    #header
+      #logo
+        %asset git_logo.png
+      #title
+        Un poco de historia:
+    %ul
+      %li Inventado por Linus Torvalds.
+      %li Gran potencia colaborativa.
+      %li Perfecto para el trabajo en grupo.
+      %li Usado y mantenido por una gran comunidad.
+      %li Las redes de código mas grande del mundo lo usan Github, Bitbuket, google code ... 
+  .slide
+    #header
+      #logo
+        %asset git_logo.png
+      #title
+        Conceptos básicos:
+    %ul
+      %li HEAD
+      %li .gitignore
+      %li origin 
+      %li master 
+
+  .slide
+    #header
+      #logo
+        %asset git_logo.png
+      #title
+        HEAD
+    .text
+      Se conoce como HEAD al comit en el que se encuentra el repositorio git,
+      pudiendose usar como referencia para desplazarse como veremos mas adelante.
+  .slide
+    #header
+      #logo
+        %asset git_logo.png
+      #title
+        \.gitignore
+    .text
+      Para no incluir ficheros innecesarios a nuestro repositorio git, o ficheros que no queremos compartir
+      (ficheros de configuaración personales, ficheros temporales, ...), se añaden a un fichero llamado .gitignore.
+      %br
+      %br
+      .block
+        .intro
+          %i Ejemplo de fichero .gitignore
+        %code
+          .line
+            *.c
+          .line
+            \/database/config.yml
+          .line
+            \...
+  .slide
+    #header
+      #logo
+        %asset git_logo.png
+      #title
+        origin
+    .text
+      En muchas ocasiones, sobre todo al principio, los usuarios de git no entienden que significa cuando usan en un comando "origin",
+      origin es una de las formas mas comunes de llamar a un repositorio remoto, se puede cambiar por cualquier otro nombre, pero
+      es muy comun llamar asi al repositorio principal, siempre se suele usar origin y cuando se añade un repositorio remoto si 
+      no se especifica se añade por defecto a esta palabra.
+      %br
+      %br
+      .block
+        .intro
+          %i En este caso se actualiza el repositorio local con el contenido de nuestra rama.
+        %code
+          .line
+            \~$ git push origin master
+  .slide
+    #header
+      #logo
+        %asset git_logo.png
+      #title
+        master
+    .text
+      La rama principal, como con origin tambien es modificable, pero se toma como estandar ese nombre y
+      es el que git le asigna por defecto a la rama con la que se inicializa un repositorio.
+      %br
+      %br
+      .block
+        .intro
+          %i La usamos en el ejemplo anterior, pero no comentamos nada sobre la rama, la rama sobre la que hacemos la actualización es master.
+        %code
+          .line
+            \~$ git push origin master
+  .slide
+    #header
+      #logo
+        %asset git_logo.png
+      #title
+        Aprendiendo mediate ejemplos:
+    %ul
+      %li Crear un repositorio y un respaldo remoto.
+      %li Crear una nueva rama.
+      %li Movernos entre ramas.
+      %li Mergear ramas.
+  .slide
+    #header
+      #logo
+        %asset git_logo.png
+      #title
+        Para nota:
+    %ul
+      %li  
+        %code
+          \~$ git log
+      %li   
+        %code
+          \~$ git status 
+      %li   
+        %code
+          \~$ git pull
+      %li   
+        %code
+          \~$ git stash 
+      %li   
+        %code
+          \~$ git checkout
+  .slide
+    #header
+      #logo
+        %asset git_logo.png
+      #title
+        Github
+    %ul
+      %li Añadir un repositorio remoto de github.
+      %li Flujo de trabajo en grupo.
+      %li gist
+      %li heroku
+  .slide
+    %h2 Fin
+    %h3 ¡¡¡Muchas gracias a todos por asistir!!!
+    %ul
+      %li Correo-e: groteck@gmail.com
+      %li github: https://github.com/groteck
+      %li twitter: @JGFraire

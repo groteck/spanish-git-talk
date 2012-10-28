@@ -1,0 +1,72 @@
+/*
+ * Write here your own styles.
+ * Compass modules are available
+ */
+
+
+@import url('/assets/vendor/deck.js/core/deck.core.scss');
+@import url('/assets/vendor/deck.js/extensions/goto/deck.goto.scss');
+@import url('/assets/vendor/deck.js/extensions/menu/deck.menu.scss');
+@import url('/assets/vendor/deck.js/extensions/navigation/deck.navigation.scss');
+@import url('/assets/vendor/deck.js/extensions/status/deck.status.scss');
+@import url('/assets/vendor/deck.js/extensions/hash/deck.hash.scss');
+
+
+/* Choose your favourite deck.js theme */
+@import url('/assets/vendor/deck.js/themes/style/swiss.css');
+@import url('/assets/vendor/deck.js/themes/transition/horizontal-slide.css');
+
+/*personal styles */
+.container.deck-child-current {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  height: 540px;
+}
+
+.deck-container .slide h1.front{
+  top: 70%;
+}
+/*Header*/
+
+#header {
+  height: 40px;
+  margin-bottom: 4px;
+  border-radius: 5px;
+  background-color: gray;
+  #logo {
+    width: 40px;
+    float:left;
+    img {
+      margin-bottom: 0;
+    }
+  } 
+  #title {
+    float:left;
+    line-height: 44px;
+  } 
+}
+
+/* list styles*/
+
+ul {
+  list-style:none;
+}
+/*block styles*/
+.slide{
+  .text{
+    .block{
+      margin-top: 10px;
+      .intro{
+        i {
+          font-style: italic;
+        }
+      }
+      code {
+        border-radius: 5px;
+        background-color: #E6E6E6;
+        display: block;
+      }
+    }
+  }
+}
