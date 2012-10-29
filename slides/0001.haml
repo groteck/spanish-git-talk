@@ -93,9 +93,46 @@
         Aprendiendo mediate ejemplos:
     %ul
       %li Crear un repositorio.
+      %li Añadir nuestros archivos al repo.
+      %li Guardar nuestro primer punto de "restauración".
       %li Crear una nueva rama.
       %li Movernos entre ramas.
       %li Mergear ramas.
+  .slide
+    #header
+      #title
+        %i.icon-git
+        Crear un repositorio:
+    .text
+      .block
+        .intro
+          %i Para crear un repositorio, primero debemos entrar en la carpeta donde este el codigo que queremos añadir al repositorio,
+          y luego en el, lanzar la orden:
+        %code
+          .line
+            \~$ git init
+  .slide
+    #header
+      #title
+        %i.icon-git
+        Añadir nuestros archivos al repo:
+    .text
+      En git realmente podemos decir que es una capa de abstracción sobre el proyecto, no tenemos que compartir necesariamente todo el codigo
+      que tiene nuestro proyecto, en ocasiones como nombramos antes al explicar el .gitignore, puede haber archivos que no se compartan nunca y no
+      entren en el repositorio git, pero ¿y si realmente lo que queremos es añadir los cambios de un fichero y no nos interesa el resto?, en este caso
+      el fichero .gitignore no nos serviria, una razon para esto seria por ejemplo no querer añadir aun los cambios a un punto de restauración, dado que
+      los quieras agrupar por funcionalidad por ejemplo.
+      .block
+        .intro
+          %i Para añadir uno o varios ficheros al proximo punto de restauración es:
+        %code
+          .line
+            \~$ git add fichero1 fichero2
+        .intro
+          %i si queremos añadir todo el directorio podemos usar:
+        %code
+          .line
+            \~$ git add .
   .slide
     #header
       #title
