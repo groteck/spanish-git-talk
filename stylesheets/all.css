@@ -1,11 +1,11 @@
-@import url("deck.core.css.scss");
-@import url("deck.goto.css.scss");
-@import url("deck.menu.css.scss");
-@import url("deck.navigation.css.scss");
-@import url("deck.status.css.scss");
-@import url("deck.hash.css.scss");
-@import url("swiss.css.scss");
-@import url("horizontal-slide.css.scss");
+@import url("deck.core.css");
+@import url("deck.goto.css");
+@import url("deck.menu.css");
+@import url("deck.navigation.css");
+@import url("deck.status.css");
+@import url("deck.hash.css");
+@import url("swiss.css");
+@import url("horizontal-slide.css");
 /*
  * Write here your own styles.
  * Compass modules are available
