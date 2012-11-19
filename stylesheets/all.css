@@ -13,7 +13,7 @@
 /* Choose your favourite deck.js theme */
 /* line 20, general.css.scss */
 i.icon-envelope-alt {
-  background-image: url("/images/gmail.png");
+  background-image: url("/spanish-git-talk/images/gmail.png");
   width: 34px;
   height: 34px;
   display: inline-block;
@@ -22,7 +22,7 @@ i.icon-envelope-alt {
 
 /* line 28, general.css.scss */
 i.icon-github {
-  background-image: url("/images/github.svg");
+  background-image: url("/spanish-git-talk/images/github.svg");
   width: 34px;
   height: 34px;
   display: inline-block;
@@ -31,7 +31,7 @@ i.icon-github {
 
 /* line 36, general.css.scss */
 i.icon-twitter {
-  background-image: url("/images/twitter.png");
+  background-image: url("/spanish-git-talk/images/twitter.png");
   width: 34px;
   height: 34px;
   display: inline-block;
@@ -40,7 +40,7 @@ i.icon-twitter {
 
 /* line 44, general.css.scss */
 i.icon-git {
-  background-image: url("/images/git.svg");
+  background-image: url("/spanish-git-talk/images/git.svg");
   width: 34px;
   height: 34px;
   display: inline-block;
