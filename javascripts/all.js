@@ -1122,4 +1122,11 @@ $(function() {
   Modernizr.addTest('pointerevents',function(){
     return document.documentElement.style.pointerEvents === '';
   });
+
+  $.event.special.swipeleft( function next() {
+  	$.deck('next');
+  });
+  $.event.special.swiperight(function previous() {
+  	$.deck('prev');
+  });
 });
