@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48px"
+   height="48px"
+   id="svg3097"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="New document 7">
+  <defs
+     id="defs3099">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3053">
+      <rect
+         style="fill:#0000ff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="rect3055"
+         width="290"
+         height="290"
+         x="0.30000001"
+         y="42.5" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7"
+     inkscape:cx="24"
+     inkscape:cy="24"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:window-width="1598"
+     inkscape:window-height="871"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3102">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <path
+       id="cat"
+       d="m 257.65634,176.79997 c 3.18543,-11.39604 4.14366,-24.5088 4.14366,-39.13128 0,-20.97187 -7.9355,-37.74897 -20.81853,-50.515406 2.25125,-7.215205 5.25826,-23.238935 -3.003,-43.752014 0,0 -14.57498,-4.594842 -47.54183,17.312514 -12.91411,-3.204547 -26.65815,-4.786916 -40.42223,-4.786916 -15.14431,0 -30.44698,1.914766 -44.71925,5.80202 C 71.27585,38.686009 56.257845,43.406246 56.257845,43.406246 46.454992,67.745873 52.516122,85.767964 54.357415,90.243382 42.835555,102.58984 35.801156,118.35084 35.801156,137.67366 c 0,14.58765 1.6729,27.67454 5.758424,39.0487 -0.05417,-0.0231 0.533243,1.43209 0.533243,1.43209 0.900099,2.35464 1.903438,4.63863 3.028059,6.84598 -0.107813,-0.0453 0.734713,1.38631 0.734713,1.38631 11.484774,21.25551 34.127555,34.98331 74.409455,39.29452 -5.71732,3.8146 -11.54992,10.29933 -13.91343,21.27142 -7.79116,3.70016 -32.45466,12.7316 -47.25215,-12.53853 0,0 -8.283311,-15.03649 -24.138272,-16.21382 0,0 -15.379854,-0.23387 -1.061474,9.51611 0,0 10.29099,4.81478 17.391543,22.90853 0,0 9.262593,30.86118 53.960793,20.95992 l 0,31.87827 c 0,0 -0.94521,11.27563 -11.35648,15.03251 0,0 -6.15134,4.22861 0.47611,6.5743 0,0 28.85928,2.34967 28.85928,-21.13608 l 0,-34.76137 c 0,0 -1.14467,-13.78552 5.67623,-18.57741 l 0,57.09567 c 0,0 -0.4711,13.62231 -7.56864,18.79038 0,0 -4.73404,8.45324 5.67623,6.10755 0,0 19.87032,-2.81841 20.81753,-25.83641 l 0.45005,-57.78136 4.77613,0 0.45406,57.78136 c 0.9452,23.018 20.81653,25.83641 20.81653,25.83641 10.40726,2.34569 5.67623,-6.10755 5.67623,-6.10755 -7.09654,-5.16807 -7.56864,-18.79038 -7.56864,-18.79038 l 0,-56.60304 c 6.81689,5.27058 5.67623,18.08379 5.67623,18.08379 l 0,34.76137 c 0,23.48674 28.86028,21.13608 28.86028,21.13608 6.62143,-2.3457 0.47511,-6.5743 0.47511,-6.5743 -10.41027,-3.75689 -11.35648,-15.03251 -11.35648,-15.03251 l 0,-45.56627 c 0,-17.76831 -7.53557,-27.17793 -14.90474,-32.14498 42.95914,-4.2296 63.5742,-18.00219 73.07334,-39.401 l 0.60341,-1.39427 c 0.9001,-2.16158 1.68593,-4.40974 2.38356,-6.72259 -0.0925,0.0162 0.40895,-1.43309 0.40895,-1.43309 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscccscccsccccccccccccccsccccccccccccccscccsccccc"
+       clip-path="url(#clipPath3053)"
+       transform="matrix(0.16410256,0,0,0.16580311,0.23794876,-7.1295341)" />
+  </g>
+</svg>

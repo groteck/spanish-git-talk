@@ -1,0 +1,113 @@
+@import url("deck.core.css.scss");
+@import url("deck.goto.css.scss");
+@import url("deck.menu.css.scss");
+@import url("deck.navigation.css.scss");
+@import url("deck.status.css.scss");
+@import url("deck.hash.css.scss");
+@import url("swiss.css.scss");
+@import url("horizontal-slide.css.scss");
+/*
+ * Write here your own styles.
+ * Compass modules are available
+ */
+/* Choose your favourite deck.js theme */
+/* line 20, general.css.scss */
+i.icon-envelope-alt {
+  background-image: url("/images/gmail.png");
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  background-size: 34px;
+  vertical-align: -8px; }
+
+/* line 28, general.css.scss */
+i.icon-github {
+  background-image: url("/images/github.svg");
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  background-size: 34px;
+  vertical-align: -8px; }
+
+/* line 36, general.css.scss */
+i.icon-twitter {
+  background-image: url("/images/twitter.png");
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  background-size: 34px;
+  vertical-align: -8px; }
+
+/* line 44, general.css.scss */
+i.icon-git {
+  background-image: url("/images/git.svg");
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  background-size: 70px;
+  vertical-align: -6px;
+  margin-right: -8px;
+  margin-left: 8px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+/* line 56, general.css.scss */
+.center {
+  text-align: center; }
+
+/*personal styles */
+/* line 60, general.css.scss */
+.container.deck-child-current {
+  width: 100%;
+  height: 100%; }
+
+/* line 65, general.css.scss */
+.deck-container .slide h1.front {
+  height: 50%; }
+
+/* line 68, general.css.scss */
+.asset {
+  height: 50%; }
+
+/* line 71, general.css.scss */
+.csstransforms .slide h1 {
+  padding: 0;
+  position: relative;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0); }
+
+/*Header*/
+/* line 82, general.css.scss */
+#header {
+  height: 40px;
+  margin-bottom: 4px;
+  border-radius: 5px;
+  background-color: gray; }
+  /* line 87, general.css.scss */
+  #header #title {
+    float: left;
+    line-height: 44px; }
+
+/* list styles*/
+/* line 95, general.css.scss */
+ul {
+  list-style: none; }
+
+/*block styles*/
+/* line 101, general.css.scss */
+.slide .text .block {
+  margin-top: 10px; }
+  /* line 104, general.css.scss */
+  .slide .text .block .intro i {
+    font-style: italic; }
+  /* line 108, general.css.scss */
+  .slide .text .block code {
+    border-radius: 5px;
+    background-color: #E6E6E6;
+    display: block; }
+    /* line 112, general.css.scss */
+    .slide .text .block code.small {
+      font-size: 20px; }
