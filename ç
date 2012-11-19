@@ -1,7 +1,7 @@
 .container
   .slide
-    %asset git.svg
     %h1.front Git control de versiones
+    %asset git_logo.png
   .slide
     #header
       #title
@@ -198,7 +198,7 @@
     #header
       #title
         %i.icon-git
-        Mergear ramas(1):
+        Mergear ramas:
     .text
       Para mergear, merge es la acción de mezclar los commits de dos ramas, es decir incrustar una rama sobre otra, esto es complejo a priori, pero la verdad que git
       lo solventa bastante bien, mezcla por fechas los commits y al final de todo si nota algun conflicto nos dice que ficheros mirar en esos ficheros nos dice que codigos,
@@ -207,30 +207,13 @@
       .block
         .intro
           %i este es el aspecto de un fichero git con un conflicto:
-        %code.small
-          .line
-            &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-          .line
-            #{"  linea de la rama de git en la que te encuentras"}
-          .line
-            #{"================="}
-          .line
-            #{"  linea de la rama que mergeaste con la tuya"}
-          .line
-            #{">>>>>>>>>>>>>>> id del commit que fallo"}
-  .slide
-    #header
-      #title
-        %i.icon-git
-        Mergear ramas(2):
-    .text
-      .block
-        .intro
-          %i Para mergerar ramas se usa el comando merge y se fusiona la rama en la que esta el usuarios con una rama externa, es decir la rama que se queda con la mezcla,
-          es la rama desde la que se lanza la orden la otra rama no se ve modificada:
         %code
           .line
-            \~$ git merge nombre-de-rama
+            #{"<<<<<<<<<<<<<<<HEAD"}
+              #{"linea de la rama de git en la que te encuentras"}
+            #{"================="}
+              #{"linea de la rama que mergeaste con la tuya"}
+            #{">>>>>>>>>>>>>>> id del commit que fallo"}
 
   .slide
     #header
