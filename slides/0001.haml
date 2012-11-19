@@ -12,7 +12,7 @@
       %li Gran potencia colaborativa.
       %li Perfecto para el trabajo en grupo.
       %li Usado y mantenido por una gran comunidad.
-      %li Las redes de código mas grande del mundo lo usan Github, Bitbuket, google code ... 
+      %li Las redes de código mas grande del mundo lo usan Github, Bitbuket, google code ...
   .slide
     #header
       #title
@@ -21,8 +21,8 @@
     %ul
       %li HEAD
       %li .gitignore
-      %li origin 
-      %li master 
+      %li origin
+      %li master
 
   .slide
     #header
@@ -30,8 +30,10 @@
         %i.icon-git
         HEAD
     .text
-      Se conoce como HEAD al comit en el que se encuentra el repositorio git,
+      Se conoce como HEAD al commit en el que se encuentra el repositorio git,
       pudiendose usar como referencia para desplazarse como veremos mas adelante.
+    .note
+      Es el último commit en la rama actual.
   .slide
     #header
       #title
@@ -60,7 +62,7 @@
     .text
       En muchas ocasiones, sobre todo al principio, los usuarios de git no entienden que significa cuando usan en un comando "origin",
       origin es una de las formas mas comunes de llamar a un repositorio remoto, se puede cambiar por cualquier otro nombre, pero
-      es muy comun llamar asi al repositorio principal, siempre se suele usar origin y cuando se añade un repositorio remoto si 
+      es muy comun llamar asi al repositorio principal, siempre se suele usar origin y cuando se añade un repositorio remoto si
       no se especifica se añade por defecto a esta palabra.
       %br
       %br
@@ -139,7 +141,7 @@
         %i.icon-git
         Guardar nuestro primer punto de "restauración":
     .text
-      La firna de guardadi de git no es automatica, dado que hay datos sensibles que no se deben guardar automaticamente, como ya hemos comentado anteriormente,
+      La forma de guardado de git no es automatica, dado que hay datos sensibles que no se deben guardar automaticamente, como ya hemos comentado anteriormente,
       por ello y para poder navegar facilmente entre versiones, git nos da los commits, que en esencia son diferencias de codigo entre versiones, el guarda solo
       las partes relevantes para la siguiente versión la versión actual, esta "fabricada" con trozos de las versiones anteriores y las nuevas diferencias que ella
       añade.
@@ -201,8 +203,8 @@
         Mergear ramas(1):
     .text
       Para mergear, merge es la acción de mezclar los commits de dos ramas, es decir incrustar una rama sobre otra, esto es complejo a priori, pero la verdad que git
-      lo solventa bastante bien, mezcla por fechas los commits y al final de todo si nota algun conflicto nos dice que ficheros mirar en esos ficheros nos dice que codigos,
-      son los que entran en conflicto, el conflicto en un merge se suele dar porque dos usuarios cambian la misma linea y el es incapaz de decidir cual de los codigos 
+      lo solventa bastante bien, mezcla mirando los padres de cada commit y al final de todo si nota algun conflicto nos dice que ficheros mirar en esos ficheros nos dice que codigos,
+      son los que entran en conflicto, el conflicto en un merge se suele dar porque dos usuarios cambian la misma linea y el es incapaz de decidir cual de los codigos
       ha de quedarse en la linea, o si debe ser uno que contenga la funcionalidad de las dos lineas.
       .block
         .intro
@@ -238,19 +240,19 @@
         %i.icon-git
         Para nota:
     %ul
-      %li  
+      %li
         %code
           \~$ git log
-      %li   
+      %li
         %code
-          \~$ git status 
-      %li   
+          \~$ git status
+      %li
         %code
           \~$ git pull
-      %li   
+      %li
         %code
-          \~$ git stash 
-      %li   
+          \~$ git stash
+      %li
         %code
           \~$ git checkout
   .slide
@@ -268,12 +270,12 @@
     .center
       %h3 ¡¡¡Muchas gracias a todos por asistir!!!
       %ul
-        %li 
+        %li
           %i.icon-envelope-alt
           groteck@gmail.com
-        %li 
+        %li
           %i.icon-github
           https://github.com/groteck
-        %li 
+        %li
           %i.icon-twitter
           @JGFraire
